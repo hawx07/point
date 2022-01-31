@@ -9,7 +9,7 @@ function preload() {
   // by=bn.height
     for(r=0;r<260;r++){
   ina=int(map(fxrand(),0,1,1,53))
-  this["bn"+r] = loadImage("/yy/cc"+ina+".css"); 
+  this["bn"+r] = loadImage("./yy/cc"+ina+".css"); 
   }
 }
 
