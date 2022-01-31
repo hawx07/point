@@ -7,9 +7,9 @@ function preload() {
   // bn = loadImage("/yön1/b ("+ina+").png");
   // bx=bn.width
   // by=bn.height
-    for(r=0;r<400;r++){
+    for(r=0;r<260;r++){
   ina=int(map(fxrand(),0,1,1,53))
-  this["bn"+r] = loadImage("/yön1/b ("+ina+").png"); 
+  this["bn"+r] = loadImage("/yön1/cc"+ina+".css"); 
   }
 }
 
